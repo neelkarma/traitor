@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: traitor-windows.exe
-          path: target/release/terdle.exe
+          path: target/release/traitor.exe
   build-linux:
     name: build-linux
     runs-on: ubuntu-latest
@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: traitor-linux
-          path: target/release/terdle
+          path: target/release/traitor
   build-macos:
     name: build-macos
     runs-on: macos-latest
@@ -64,4 +64,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: traitor-macos
-          path: target/release/terdle
+          path: target/release/traitor
