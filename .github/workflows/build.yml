@@ -6,6 +6,7 @@ on:
     paths:
       - "**.rs"
       - "Cargo.toml"
+      - ".github/workflows/*"
 
 env:
   CARGO_TERM_COLOR: always
