@@ -34,11 +34,10 @@ fn main() -> Result<()> {
                     format!("(https://github.com/{})", traitor).dimmed()
                 );
             }
-            println!();
         }
     }
 
     save_offline_followers(online_followers)?;
-    println!("{}", "Saved new follower list.".dimmed());
+    println!("\n{}", "Saved new follower list.".dimmed());
     Ok(())
 }
